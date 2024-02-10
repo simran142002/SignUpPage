@@ -1,49 +1,43 @@
-<div *ngIf="!verifyOtp">
-  <div class="row" id="signUpText">
-    Sign up to Mentor
-    <span class="text-green">
-      ED
-    </span>
+<div *ngIf="!verifyOtp" id="topmargin">
+
+
+  <div><span class="try1"><a id="try" href="https://mentored.shikshalokam.org/auth/register">Sign
+        up</a></span></div>
+  <div id="spacing"><br></div>
+  <div><br></div>
+  <div id="signUpText">
+    Login to Mentor<span class="text-green">ED</span>
   </div>
-  
+
   <div class="d-flex bottom-margin">
     <hr>
   </div>
   <div class="container signup-container">
-    <h2>Sign Up</h2>
-    <form class="signup-form">
-      <label for="name">Name<span>*</span></label>
-      <input type="text" id="name" name="name" [(ngModel)]="user.name" required />
-  
+    <form class="login-form">
+
       <label for="email">Email<span>*</span></label>
       <input type="email" id="email" name="email" [(ngModel)]="user.email" required />
-  
+
       <label for="password">Password<span>*</span></label>
       <div class="password-input-container">
         <input type="password" id="password" name="password" [(ngModel)]="user.password" required />
         <button type="button" (click)="togglePasswordVisibility('password')">
-          <img *ngIf="showPassword" src="../assets/eye.png" alt="Show Password" style="width: 10%; margin-left: -337%;
-          margin-bottom: 24%;" />
+          <img *ngIf="showPassword" src="../assets/eye.png" alt="Show Password" style="width: 10%; margin-left: -250%;
+          margin-bottom: 32%;" />
           <img *ngIf="!showPassword" src="../assets/openeye.svg" alt="Show Password" style="width: 4%;
-          margin-bottom: 9%; margin-left: -10%" />
+          margin-bottom: 9%; margin-left: 10%" />
         </button>
       </div>
-  
-      <label for="confirmPassword">Confirm Password<span>*</span></label>
-      <div class="password-input-container">
-        <input type="password" id="confirmPassword" name="confirmPassword" [(ngModel)]="user.confirmPassword" required />
-        <button type="button" (click)="togglePasswordVisibility('password')">
-          <img *ngIf="showPassword" src="../assets/eye.png" alt="Show Password" style="width: 10%; margin-left: -337%;
-          margin-bottom: 24%;" />
-          <img *ngIf="!showPassword" src="../assets/openeye.svg" alt="Show Password" style="width: 4%;
-          margin-bottom: 9%; margin-left: -10%" />
-        </button>
-      </div>
-  
-      <button type="button" id="signupbtn" (click)="signup()" [ngClass]="{'red-button': isFormValid()}">Sign Up</button>
+
+      <button type="button" id="loginbtn" (click)="signup()" [ngClass]="{'red-button': isFormValid()}">Login</button>
+      <div id="forgotpass"><a id="forgotpass" href="#">Forgot Password? </a></div>
     </form>
+    <div class="greytext1">Having trouble in logging in/signing up? Write to us at</div>
+    <div class="greytext2">mentored-support&#64;shikshalokam.org</div>
+    <div id="t-and-c">By continuing, you agree to accept our <a class="terms-and-conditions" href="https://shikshalokam.org/mentoring/privacy-policy/">Privacy Policy</a>
+      & <a class="terms-and-conditions" href="https://shikshalokam.org/mentoring/term-of-use/">Terms of Service</a></div>
   </div>
 </div>
-  <div *ngIf="verifyOtp">
-    <app-verify-otp></app-verify-otp>
-  </div>
+<div *ngIf="verifyOtp">
+  <app-verify-otp></app-verify-otp>
+</div>
