@@ -1,4 +1,4 @@
-<form>
+<div *ngIf="!verifyOtp">
   <div class="row" id="signUpText">
     Sign up to Mentor
     <span class="text-green">
@@ -43,4 +43,7 @@
       <button type="button" id="signupbtn" (click)="signup()" [ngClass]="{'red-button': isFormValid()}">Sign Up</button>
     </form>
   </div>
-  
+</div>
+  <div *ngIf="verifyOtp">
+    <app-verify-otp></app-verify-otp>
+  </div>

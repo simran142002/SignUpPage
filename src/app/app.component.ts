@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { Router } from '@angular/router';
+import { Router, ActivatedRoute } from '@angular/router';
 import { ApiService } from '../app/api.service';
 
 @Component({
@@ -8,7 +8,7 @@ import { ApiService } from '../app/api.service';
   styleUrl: './app.component.css'
 })
 export class AppComponent {
-  constructor(private router: Router, private apiService: ApiService) {}
+  constructor(private route: ActivatedRoute, private router: Router, private apiService: ApiService) {}
   verifyOtp: boolean = false;
   title = 'sign';
   user = {

@@ -1,0 +1,99 @@
+#signUpText {
+    display: inline-block;
+    font-family: NotoSans-Regular;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.text-green {
+    color: #3ac70f;
+}
+
+.bottom-margin {
+    margin-bottom: 4%;
+    
+}
+
+#redHr {
+    background-color: #a92121;
+    height: 5px;
+    width: 40%;
+    margin: 5px 0 10px;
+}
+
+.otp-input-container {
+    display: flex;
+    margin-bottom: 15px;
+  }
+  
+  .otp-box {
+    width: 46px;
+    height: 46px;
+    border-radius: 8px;
+    margin-right: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  input {
+    /* border: none; */
+    text-align: center;
+    font-size: 16px;
+    width: 100%;
+    height: 100%;
+    outline: none;
+  }
+  
+  .otp-description {
+    margin-left: -66%;
+    font-size: 12px;
+    margin-top: 15px;
+    text-align: center;
+  }
+
+  .heading {
+    margin-left: -20%;
+  }
+  
+  .checkbox-container {
+    display: flex;
+    align-items: center;
+    margin-top: 5%;
+    margin-left: -117%;
+  }
+  
+  .checkbox-container label {
+    margin-left: -49%;
+  }
+  
+  .verify-btn {
+    width: 56%;
+    height: 46px;
+    border-radius: 30px;
+    margin-left: -10%;
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: none;
+    margin-top: 10px;
+  }
+  
+  .resend-otp {
+    margin-top: 15px;
+    text-align: center;
+    margin-left: -64%;
+  }
+
+  .disabled[_ngcontent-dud-c138] {
+    --background: rgb(49, 49, 51);
+}
+  
+  .resend-otp a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
