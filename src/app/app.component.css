@@ -1,81 +1,145 @@
 #signUpText {
-    display: inline-block;
-    font-family: NotoSans-Regular;
-    font-size: 24px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 36px;
-    letter-spacing: 0em;
-    text-align: left;
+  display: inline-block;
+  font-family: NotoSans-Regular;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 550;
+  line-height: 36px;
+  letter-spacing: 0em;
+  text-align: left;
+
 }
 
 .text-green {
-    color: #3ac70f;
+  color: #3ac70f;
 }
 
 .bottom-margin {
-    margin-bottom: 4%;
+  margin-bottom: 10%;
 }
 
 hr {
-    background-color: #a92121;
-    height: 5px;
-    width: 40%;
-    margin: 5px 0 10px;
+  background-color: #a92121;
+  height: 5px;
+  width: 40%;
+  margin: 5px 0 10px;
 }
 
-/* Add this to the existing styles.css file or update it */
+#loginbtn {
 
-#signupbtn {
-    width: 66%;
-    height: 46px;
-    border-radius: 30px;
+  width: 66%;
+  height: 46px;
+  border-radius: 30px;
+  margin-top: 5%;
+
+
 }
 
-.signup-form label {
-    display: block;
-    margin-bottom: 10px;
-  }
-  
-  .signup-form label span {
-    color: red;
-    margin-left: 5px;
-  }
-  
-  .red-button {
-    background-color: #9d1e1e;
-    color: white;
-    font-weight: bold;
-    /* Add more styles as needed */
-  }
+.login-form label {
+  display: block;
+  margin-bottom: 10px;
+}
 
-  .signup-form input {
-    border: none;
-    border-bottom: 1px solid #ccc;
-    padding: 5px;
-    margin-bottom: 20px;
-    width: 66%;
-    box-sizing: border-box;
-    outline: none;
-  }
+.login-form label span {
+  color: red;
+  margin-left: 5px;
+}
+
+.red-button {
+  background-color: #9d1e1e;
+  color: white;
+  font-weight: bold;
+}
+
+.login-form input {
+  border: none;
+  border-bottom: 1px solid #ccc;
+  padding: 5px;
+  margin-bottom: 20px;
+  width: 66%;
+  box-sizing: border-box;
+  outline: none;
+}
+
+.password-input-container {
+  position: relative;
+}
+
+.password-input-container input {
+  padding-right: 30px;
+}
+
+.password-input-container button {
   
-  .password-input-container {
-    position: relative;
-  }
-  
-  .password-input-container input {
-    padding-right: 30px;
-  }
-  
-  .password-input-container button {
-    position: absolute;
-    top: 50%;
-    right: 0;
-    transform: translateY(-50%);
-    background: none;
-    border: none;
-    cursor: pointer;
-    outline: none;
-    color: #3498db;
-  }
-  
+  position: absolute;
+  top: 50%;
+  right: 0;
+  transform: translateY(-50%);
+  background: none;
+  border: none;
+  cursor: pointer;
+  outline: none;
+  color: #3498db;
+}
+
+
+
+#forgotpass {
+  color: #832215;
+  width: 48%;
+  margin: auto;
+  margin-top: 3%;
+  font-family: 'Noto Sans', sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+#try {
+  text-decoration: none;
+  /* margin-bottom: 30px; */
+  color: #832215;
+  /* margin-left: 70%; */
+  font-family: 'Noto Sans', sans-serif;
+  font-size: medium;
+  font-weight: 500;
+}
+
+#topmargin {
+    display:flex; flex-direction:column; justify-content:left;
+    min-height:80vh;
+}
+
+.greytext1 {
+  width: 66%;
+  margin: auto;
+  margin-top: 2%;
+  color: grey;
+}
+.greytext2 {
+  width: 66%;
+  margin-left: 23%;
+  margin-bottom: 4%;
+  color: grey;
+}
+.terms-and-conditions{
+  color:#0000FF;
+  text-decoration: none;
+}
+#t-and-c{
+  width: 66%;
+  margin-left: 12%;
+  font-size: 16px;
+}
+
+.try1{
+  float:right;
+}
+.try2{
+  float:left;
+  margin-right: 5%;
+}
+#spacing{
+  margin-bottom: 5%;
+}
