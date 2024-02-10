@@ -1,3 +1,13 @@
+![Uploading Screenshot from 2024-02-09 14-55-26.png…]()
+
+[Screencast from 09-02-24 02:33:37 PM IST.webm](https://github.com/ELEVATE-Project/frontend-authentication-module/assets/95395832/6518ccf0-fdd2-4ca1-b549-7c2d455705fe)
+
+![Screenshot from 2024-02-10 09-55-20](https://github.com/ELEVATE-Project/frontend-authentication-module/assets/95395832/c802e0d3-af0a-4ef9-bc8a-f5e5659d2624)
+
+
+[Screencast from 09-02-24 02:34:06 PM IST.webm](https://github.com/ELEVATE-Project/frontend-authentication-module/assets/95395832/b67d1204-0176-4285-a0ad-ce778156aeea)
+
+
 # Sign
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.1.2.
