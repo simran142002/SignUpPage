@@ -7,13 +7,15 @@ import { SignupComponent } from './signup/signup.component';
 import { HttpClientModule } from '@angular/common/http';
 import { VerifyOtpComponent } from './verify-otp/verify-otp.component';
 import { LoginpageComponent } from './loginpage/loginpage.component';
+import { ForgotPasswordComponent } from './forgot-password/forgot-password.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     SignupComponent,
     VerifyOtpComponent,
-    LoginpageComponent
+    LoginpageComponent,
+    ForgotPasswordComponent
   ],
   imports: [
     BrowserModule,
